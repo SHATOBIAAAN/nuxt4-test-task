@@ -9,8 +9,15 @@ export default defineNuxtConfig({
         'nuxt-schema-org',
     ],
     site: {
-        url: 'https://test-task-demo.com',
-        name: 'Демо-Сайт',
+        url: 'https://shatobiaan.github.io/nuxt4-test-task/',
+        name: 'TGames',
+    },
+    app: {
+        baseURL: '/nuxt4-test-task/',
+        buildAssetsDir: 'assets',
+    },
+    nitro: {
+        preset: 'github-pages',
     },
     robots: {
         disallow: ['/admin'],
