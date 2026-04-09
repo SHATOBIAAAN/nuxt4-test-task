@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         'nuxt-schema-org',
     ],
     site: {
-        url: 'https://shatobiaan.github.io/nuxt4-test-task/',
+        url: 'https://shatobiaaan.github.io/nuxt4-test-task/',
         name: 'TGames',
     },
     app: {
